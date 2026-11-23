@@ -4,7 +4,12 @@ An AI-assisted, simulation-ready FRC swerve drivetrain codebase built on the **R
 
 
 Quick Start: Driving & Testing in the 3D Simulator
-Anyone on the team can launch this project on a laptop without needing a physical robot. Start the WPILib Robot Simulator in Teleoperated mode, open AdvantageScope to the 3D Field view, and drag the robot's position topics (TrueSimPose as a solid robot, plus Drive/Pose and Vision/EstimatedPose as colored "ghost" robots) onto the field. We intentionally built simulated wheel slip and gyro drift into the physics so you can watch how the two ghosts separate from the real robot when driving through camera blind spots—and how the AprilTag camera automatically snaps the robot's estimated position back on track as soon as a tag comes back into view. From any spot on the field, you can test-drive manually with the joysticks, press Start to re-zero the robot's forward heading, press X to "kidnap" the robot (simulating a sudden tracking jump to (5.0, 5.0) so you can watch the camera recover), or hold the A button to watch the robot automatically plan a collision-free path around field obstacles straight to the Blue Human Player Station.
+
+Anyone on the team can launch this project on a laptop without needing a physical robot. 
+
+Start the WPILib Robot Simulator in Teleoperated mode, open AdvantageScope to the 3D Field view, and drag the robot's positions (TrueSimPose as a solid robot, plus Drive/Pose and Vision/EstimatedPose as colored "ghost" robots) onto the field. We intentionally built simulated wheel slip and gyro drift into the physics so you can watch how the two ghosts separate from the real robot when driving through camera blind spots—and how the AprilTag camera automatically snaps the robot's estimated position back on track as soon as a tag comes back into view. 
+
+From any spot on the field, you can test-drive manually with the joysticks, press Start to re-zero the robot's forward heading, press X to "kidnap" the robot (simulating a sudden tracking jump to (5.0, 5.0) so you can watch the camera recover), or hold the A button to watch the robot automatically plan a collision-free path around field obstacles straight to the Blue Human Player Station.
 
 ---
 
